@@ -1,0 +1,130 @@
+/* Global styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Amount input */
+.amount p {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.amount input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Dropdowns section */
+.dropdowns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.select-box p {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+/* Flag and dropdown */
+.flag-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #f7f7f7;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.flag-select img {
+  width: 35px;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.flag-select select {
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Swap icon */
+.swap-icon {
+  font-size: 22px;
+  color: #007bff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.swap-icon:hover {
+  transform: rotate(180deg);
+}
+
+/* Button */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Message */
+.msg {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* Result */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
